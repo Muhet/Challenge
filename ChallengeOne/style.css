@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   
+}
+.nav{
+   background-color: white;
+   width: 1100%;
+   height: 100px;
+   position: fixed;
+   display: flex;
+   box-shadow: 0 2px  0 rgba(0, 0, 0, .1);
+
+    
+}
+section{
+   background-image: url(./gb1.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    background-size:cover;
+    }
+.content{
+    background-image: url(./bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 93%;
+    height:600px;
+    margin: 150px;
+    padding-top: 0;
+    display: flex;
+    
+ }
+.side-bar{
+    background-color: white;
+    height:600px;
+    width: 120px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.log{
+    display: flex;
+    justify-content: space-between;
+}
+.log #link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px ;
+}
+
+#link2{
+    text-decoration: none;
+    color:lightcoral;
+}
+.logo{
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+   
+}
+.text{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo #logo1{
+   margin-left: 890px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 80px;
+    height: 60px;
+    border-color: #f11c38ef;
+    border-radius: 1.5vh;
+    border-style:groove;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.btn .btn-signIn{
+    margin: 10px;
+    border-radius: 3vh;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+.btn .btn-signIn:hover{
+    background-color: lightgray;
+    color: black;
+}
+.btn .btn-signUp{
+   background-color: white;
+    border-radius: 3vh;
+    width: 70px;
+    height: 30px;
+    border: none;
+   
+}
+.btn .btn-signUp:hover{
+    background-color: black;
+    color: white;
+    
+}
+.side-bar #plants{
+    text-decoration: none;
+    padding-top: 30px;
+    color: black;
+    font-size: 25px;
+}
+.side-bar #plants:hover{
+    color: gray;
+}
+.side-bar ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.side-bar ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.side-bar ul li a:hover{
+    color: lightcoral;
+}
+
+.side-bar ul li{
+    padding: 3px;
+}
+.bodymass{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 15%;
+    padding-top: 20%;
+    padding-bottom: 50%;
+}
+.bodymass h2{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 900 bolder;
+padding-top:20%;
+
+}
+.bodymass h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.bodymass p{
+    color:black;
+    padding-top: 30px;
+    padding-right: 100px;
+    margin-top: 0;
+    font-size: 11px;
+    
+}
+.bodymass b1{
+    color: red;
+}
+.bodymass b{
+    color:white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.add-to-cart{
+    border-radius: 3vh;
+    border: none;
+    margin: 2px;
+    width: 90px;
+    height: 30px;
+    border-width: 10%;
+    background-color: lightgray;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, .3);
+}
+.buy-now{
+    border-radius: 3vh;
+    border: none;
+    margin: 2px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+
+.add-to-cart:hover{
+    color: white;
+    background-color: black;
+}
+.buy-now:hover{
+    color: black;
+    background-color: white;
+}
+.right-btn{
+ display: flex;
+ justify-content: right;
+ align-items: center;
+ padding-right: 10%;
+}
+.right-btn .btn3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: lightgray;
+    border: none;
+    box-shadow: 2px 0 2px rgba(0, 0, 0, .1);
+}
+.right-btn .btn3:hover{
+    background-color: lightgray;
+    color: black;
+}
